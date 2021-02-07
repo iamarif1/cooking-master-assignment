@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooking Master</title>
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <main class="container mt-3">
+        <section class="search-section text-center">
+
+            <div class="input-width input-group mb-3">
+                <input id="search-text" type="text" class="form-control" placeholder="Search for Meal..."
+                    aria-label="Recipient's name" aria-describedby="inputButton">
+                <button class="btn btn-outline-secondary btn-dark text-warning" type="button"
+                    id="inputButton">Search</button>
+            </div>
+
+        </section>
+        <div id="details" class="d-flex justify-content-center">
+
+        </div>
+        <div id="allFood">
+
+        </div>
+        <section class="d-flex justify-content-center">
+            <div id="invalidFood">
+                <br>
+                <h2 class=" font-weight-bold text-danger ">Oops!! Maybe This Food For Alien👽</h2>
+            </div>
+
+        </section>
+    </main>
+    <!--Bootstrap JavaScript-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js">
+    </script>
+    <!--Main JavaScript-->
+    <script src="app.js"></script>
+</body>
+
+</html>
